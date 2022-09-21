@@ -11,6 +11,8 @@ export default function initSubmitForm() {
     const inputRadios = form.querySelectorAll('input[type="radio"]');
     const feedbacks = form.querySelectorAll('.invalid-feedback');
 
+    console.clear();
+
     if (!inputName.value && !inputEmail.value && !inputTel.value) {
       initAlertUser(
         'danger',
