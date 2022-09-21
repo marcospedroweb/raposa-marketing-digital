@@ -1,0 +1,23 @@
+#footer{
+  background-color: #252525;
+  padding: 2rem 0;
+}
+
+#footer ul{
+  list-style: none;
+  padding: 0;
+}
+
+#footer h2, #footer p, #footer li, #footer a{
+  color: #fff;
+  transition: color .25s ease-out;
+}
+
+#footer a:hover{
+  color: #bababa;
+}
+
+#footer .copyright{
+  font-size: 1rem !important;
+  font-weight: 400;
+}

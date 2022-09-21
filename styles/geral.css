@@ -1,0 +1,25 @@
+body{
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Typography */
+h1,h2,h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #252525;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.25rem;
+}
+
+span,p,a,button{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #252525;
+}

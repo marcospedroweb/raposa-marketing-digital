@@ -1,0 +1,47 @@
+/* section team */
+#section-team{
+  background-color: #252525;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  width: 100vw;
+}
+
+.employee{
+  background-color: #363636;
+  padding: 1rem;
+  min-height: 440px;
+  border-radius: 8px;
+  max-width: 275px;
+}
+
+.employee img{
+  border-radius: 50%;
+}
+
+#section-team h2, .employee h3, .employee p:last-child{
+  color: #fff;
+}
+
+.employee p{
+  margin-top: 12px;
+  color: #BABABA;
+}
+
+.employee h3{
+  margin-top: 8px;
+  font-weight: 600;
+  position: relative;
+}
+
+.employee h3::after{
+  content: '';
+  width: 70%;
+  height: 4px;
+  background-color: #EC8115;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 1px;
+}

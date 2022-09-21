@@ -1,0 +1,64 @@
+/* Header */
+.header{
+  position: absolute;
+  z-index: 1050;
+  width: 100%;
+  transition: all .25s ease-out;
+}
+
+.header .navbar-toggler{
+  color: #fff;
+  background-color: #fff;
+}
+
+.header a{
+  color: #fff;
+}
+
+.header .nav-link.active{
+  color: #fff;
+  font-weight: 500;
+}
+
+#logo{
+  max-height: 90px;
+}
+
+/* Header */
+
+#banner{
+  width: 100vw;
+  height: 100vh;
+  background: url('../imgs/mailchimp-04X1Yp9hNH8-unsplash.jpg') center / cover;
+  position: relative;
+}
+
+#banner::after{
+  content: '';
+  background-color: rgba(0, 0, 0, .6);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+#banner-text{
+  z-index: 1001;
+  color: #fff;
+  width: 50%;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  #banner-text{
+    width: 80%;
+  }
+}
+
+#banner-text h2,#banner-text p,#banner-text span{
+  color: #fff;
+}
+
+#banner-text .btn{
+  width: 165px;
+  border-radius: 4px;
+}

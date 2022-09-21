@@ -1,0 +1,15 @@
+/* Section best company */
+.best-company{
+  min-height: 72px;
+}
+
+.best-company h3, .best-company h3 span:first-child{
+  color: #EC8115 !important;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.best-company h3 span:last-child{
+  color: #252525;
+  font-weight: 500;
+}
