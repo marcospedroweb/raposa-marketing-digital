@@ -11,8 +11,6 @@ export default function initSubmitForm() {
     const inputRadios = form.querySelectorAll('input[type="radio"]');
     const feedbacks = form.querySelectorAll('.invalid-feedback');
 
-    console.clear();
-
     if (!inputName.value && !inputEmail.value && !inputTel.value) {
       initAlertUser(
         'danger',
@@ -25,6 +23,8 @@ export default function initSubmitForm() {
       inputRadios.forEach((input, index) => {
         if (index !== 0) {
           input.checked = false;
+        } else if (index === 0) {
+          input.checked = true;
         }
       });
       feedbacks.forEach((feedback) => {
