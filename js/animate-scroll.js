@@ -1,4 +1,6 @@
 export default function initAnimateScroll() {
+  // Adiciona classe aos elementos que devem sofrem alterações quando usuario estiver neles
+
   const sectionBest = document.querySelector('#section-best-company');
   if (sectionBest) {
     const halfWindow = window.innerHeight * 0.6;

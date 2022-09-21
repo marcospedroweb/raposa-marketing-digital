@@ -1,4 +1,6 @@
 export default function initChangeAdvantages() {
+  // Faz todo o sistema de troca de vantagens funcionar
+
   const slidesLink = document.querySelectorAll('.slide-link');
   const divAdvantages = document.querySelectorAll('.div-advantage');
 
