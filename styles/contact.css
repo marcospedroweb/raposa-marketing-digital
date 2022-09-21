@@ -36,8 +36,18 @@
   color: #fff;
 }
 
-/* custom radio */
+#form-contact .alert{
+  opacity: 0;
+  transform: translateY(-15px);
+  transition: all .25s ease-in;
+}
 
+#form-contact .alert.show{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* custom radio */
 #form-contact input[type='radio']{
   display: none;
 }
@@ -81,3 +91,4 @@ input[type='radio']:checked + .custom-radio span {
   width: 100%;
   border-radius: 4px;
 }
+

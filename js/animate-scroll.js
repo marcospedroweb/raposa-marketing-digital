@@ -5,8 +5,6 @@ export default function initAnimateScroll() {
   if (sectionBest) {
     const halfWindow = window.innerHeight * 0.6;
 
-    function teste() {}
-
     function animate() {
       const sectionTop = sectionBest.getBoundingClientRect().top;
       const isSectionVisible = sectionTop - halfWindow < 0;
@@ -16,10 +14,7 @@ export default function initAnimateScroll() {
         sectionBest.classList.remove('show');
       }
     }
-
     animate();
-
-    // window.addEventListener('scroll', animate);
     window.addEventListener('scroll', animate);
   }
 }

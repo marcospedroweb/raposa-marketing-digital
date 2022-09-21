@@ -23,5 +23,6 @@ export default function initChangeNavbar() {
     }
   }
 
+  changeNavbar();
   window.addEventListener('scroll', changeNavbar);
 }
