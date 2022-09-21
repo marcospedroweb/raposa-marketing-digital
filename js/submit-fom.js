@@ -21,10 +21,10 @@ export default function initSubmitForm() {
       inputEmail.value = '';
       inputTel.value = '';
       inputRadios.forEach((input, index) => {
-        if (index !== 0) {
-          input.checked = false;
-        } else if (index === 0) {
+        if (index === 0) {
           input.checked = true;
+        } else if (index !== 0) {
+          input.checked = false;
         }
       });
       feedbacks.forEach((feedback) => {
