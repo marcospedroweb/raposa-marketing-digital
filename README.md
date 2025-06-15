@@ -1,9 +1,12 @@
-# Landing page 
+# Landing page
 
 ## 📘 Descrição
 
 Projeto pessoal de landing page desenvolvido para divulgar uma empresa fictícia de marketing digital.  
 Este projeto foi criado para praticar e aprimorar conhecimentos em HTML, CSS, JavaScript e Bootstrap.
+
+**Aviso:** A marca "Raposa Marketing Digital" é completamente fictícia e não possui qualquer relação com empresas reais.  
+Qualquer semelhança com nomes ou marcas existentes é mera coincidência. Este projeto tem finalidade apenas educacional.
 
 ## ✨ Funcionalidades
 
